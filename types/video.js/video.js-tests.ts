@@ -207,6 +207,9 @@ videojs('example_video_1', playerOptions).ready(function playerReady() {
 
     // $ExpectType number[]
     const playbackRates: number[] = this.playbackRates();
+    
+    // $ExpectType number
+    const defaultPlaybackRate: number = this.defaultPlaybackRate();
 
     // $ExpectType string
     const currentBreakPoint = this.currentBreakpoint();
